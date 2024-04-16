@@ -1,0 +1,150 @@
+body {
+    background: #202124;
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    height: 48px;
+    padding: 0px 4px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    padding: 0px 15px;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#content {
+    width: 100%;
+    height: 725px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#content img {
+    width: 272px;
+    height: 92px;
+}
+
+#content form {
+    padding: 20px;
+}
+
+#content form .search-bar {
+    width: 582px;
+    height: 46px;
+    border: 1px solid grey;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding: 5px 15px;
+}
+
+#content form i {
+    font-size: 25px;
+    color: grey;
+}
+
+#content .search-bar input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    color: white;
+    font-size: 25px;
+    outline: none;
+    background: none;
+}
+
+#content .boutons {
+    margin-top: 25px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#content .boutons input {
+    background-color: #303134;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#content .boutons input:hover {
+    border: 1px solid gray;
+}
+
+#content p {
+    color: white;
+}
+
+#container .footer {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer-top {
+    padding: 15px 30px;
+    background-color: black;
+    border-bottom: 1px solid grey;
+}
+
+.footer p {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer .footer-bottom {
+    background-color: black;
+}
+
+.footer .footer-bottom .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.footer-bottom .footer-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer-nav ul li {
+    margin: 0px 10px;
+}
+
+.footer-nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-nav ul a:hover {
+    text-decoration: underline;
+}
